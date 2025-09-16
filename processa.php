@@ -1,6 +1,12 @@
 <?php
 session_start();
 
+if (!isset($_POST['title'])) {
+    header("Location: index.php");
+    exit();
+}
+
+
 $arq = file_get_contents("./PS2_Games.json");
 if ($arq === false) {
     die("Erro ao ler o arquivo.");
@@ -14,12 +20,14 @@ $games = $ps2g->jogos_ps2;
 //esses filtros serão substituídos na versão final pelos valores do formulário
 // -1 = sem limite
 $filters = array(
-    "year_min" => -1,
-    "year_max" => -1,
-    "title" => "God of",
-    "dev" => "Santa Monica",
-    "genre" => "Ação",
+    "year_min" => isset($_POST['year_min']) && $_POST['year_min'] !== '' ? (int) $_POST['year_min'] : -1,
+    "year_max" => isset($_POST['year_max']) && $_POST['year_max'] !== '' ? (int) $_POST['year_max'] : -1,
+    "title" => $_POST['title'],
+    "dev" => $_POST['dev'],
+    "genre" => $_POST['genre'],
 );
+
+$_SESSION['ancient_POST'] = $filters;
 
 //TODO: filtro para vendas, e filtro de faixa etária.
 

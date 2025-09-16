@@ -58,6 +58,9 @@ if (isset($_SESSION['results'])) {
             <?php endforeach; ?>
         </tbody>
     </table>
+
+
+    <?php print_r($_SESSION['ancient_POST']) ?>
 </body>
 
 </html>
