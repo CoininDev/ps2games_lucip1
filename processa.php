@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 $arq = file_get_contents("./PS2_Games.json");
 if ($arq === false) {
@@ -29,4 +30,6 @@ $filtered = array_filter($games, function ($game) use ($year_minimum_filter, $ye
         str_contains(strtolower($game->genero), strtolower($genre_filter));
 });
 
-print_r($filtered);
+$_SESSION['results'] = $filtered;
+header("Location: results.php");
+exit();
