@@ -43,7 +43,7 @@ if (isset($_SESSION['results'])) {
                 <th>Ano</th>
                 <th>Desenvolvedora</th>
                 <th>Gênero</th>
-                <th>Estimativa de Vendas (mi)</th>
+                <th>Estimativa de Vendas</th>
             </tr>
         </thead>
         <tbody>
@@ -53,7 +53,7 @@ if (isset($_SESSION['results'])) {
                     <td><?= htmlspecialchars($game->ano) ?></td>
                     <td><?= htmlspecialchars($game->desenvolvedora) ?></td>
                     <td><?= htmlspecialchars($game->genero) ?></td>
-                    <td><?= htmlspecialchars($game->vendas_aproximadas_milhoes) ?></td>
+                    <td><?= htmlspecialchars($game->vendas_aproximadas_milhoes) ?> mi</td>
                 </tr>
             <?php endforeach; ?>
         </tbody>
