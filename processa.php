@@ -17,7 +17,6 @@ if ($ps2g === null) {
 }
 $games = $ps2g->jogos_ps2;
 
-//esses filtros serão substituídos na versão final pelos valores do formulário
 // -1 = sem limite
 $filters = array(
     "year_min" => isset($_POST['year_min']) && $_POST['year_min'] !== '' ? (int) $_POST['year_min'] : -1,
@@ -26,10 +25,9 @@ $filters = array(
     "dev" => $_POST['dev'],
     "genre" => $_POST['genre'],
 );
-
-$_SESSION['ancient_POST'] = $filters;
-
 //TODO: filtro para vendas, e filtro de faixa etária.
+
+
 
 
 $filtered = array_filter($games, function ($game) use ($filters) {
