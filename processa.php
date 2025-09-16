@@ -13,21 +13,24 @@ $games = $ps2g->jogos_ps2;
 
 //esses filtros serão substituídos na versão final pelos valores do formulário
 // -1 = sem limite
-$year_minimum_filter = -1;
-$year_maximum_filter = -1;
-$title_filter = "God of";
-$dev_filter = "Santa Monica";
-$genre_filter = "Ação";
+$filters = array(
+    "year_min" => -1,
+    "year_max" => -1,
+    "title" => "God of",
+    "dev" => "Santa Monica",
+    "genre" => "Ação",
+);
+
 //TODO: filtro para vendas, e filtro de faixa etária.
 
 
-$filtered = array_filter($games, function ($game) use ($year_minimum_filter, $year_maximum_filter, $title_filter, $dev_filter, $genre_filter) {
+$filtered = array_filter($games, function ($game) use ($filters) {
     return
-        ($year_maximum_filter === -1 || $game->ano <= $year_maximum_filter) &&
-        ($year_minimum_filter === -1 || $game->ano >= $year_minimum_filter) &&
-        str_contains(strtolower($game->titulo), strtolower($title_filter)) &&
-        str_contains(strtolower($game->desenvolvedora), strtolower($dev_filter)) &&
-        str_contains(strtolower($game->genero), strtolower($genre_filter));
+        ($filters['year_max'] === -1 || $game->ano <= $filters['year_max']) &&
+        ($filters['year_min'] === -1 || $game->ano >= $filters['year_min']) &&
+        str_contains(strtolower($game->titulo), strtolower($filters['title'])) &&
+        str_contains(strtolower($game->desenvolvedora), strtolower($filters['dev'])) &&
+        str_contains(strtolower($game->genero), strtolower($filters['genre']));
 });
 
 $_SESSION['results'] = $filtered;
