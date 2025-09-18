@@ -1,6 +1,13 @@
 <?php
 session_start();
 
+// Limpar filtros
+if (isset($_POST['clear'])) {
+    unset($_SESSION['results']); 
+    header("Location: biblioteca.php"); 
+    exit();
+}
+
 $arq = file_get_contents("./PS2_Games.json");
 if ($arq === false) {
     die("Erro ao ler o arquivo.");
@@ -9,8 +16,8 @@ $ps2g = json_decode($arq);
 if ($ps2g === null) {
     die("Erro ao decodificar JSON: " . json_last_error_msg());
 }
+
 $games = $ps2g->jogos_ps2;
-var_dump($games[0]);
 
 // -1 = sem limite
 $filters = array(
@@ -35,5 +42,5 @@ $filtered = array_filter($games, function ($game) use ($filters) {
 });
 
 $_SESSION['results'] = $filtered;
-header("Location: results.php");
+header("Location: biblioteca.php");
 exit();

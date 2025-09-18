@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pesquisa PS2Games</title>
+    <title>Biblioteca de Jogos PS2 - Início</title>
+    <link rel="stylesheet" href="configgeral.css">   
 </head>
-
 <body>
-    <h1>PS2Games</h1>
-    <form action="processa.php" method="POST">
-        <label for="title">Título:</label>
-        <input type="text" id="title" name="title"><br><br>
+    <div class="container">
+        <header>
+            <h1>Biblioteca de Jogos PS2</h1>
+            <p class="subtitle">Reviva os clássicos do PlayStation 2 em uma experiência nostálgica</p>
+        </header>
 
-        <label for="dev">Desenvolvedora:</label>
-        <input type="text" id="dev" name="dev"><br><br>
+        <div class="gif-container">
+            <img src="https://i.redd.it/79f12g497hl91.gif" alt="Animação PS2">
+        </div>
 
-        <label for="genre">Gênero:</label>
-        <input type="text" id="genre" name="genre"><br><br>
+        <div class="buttons-container">
+            <a href="manual.html" class="btn btn-primary">Manual do Usuário</a>
+            <a href="processa.php" class="btn btn-secondary">Pesquisar Jogos</a>
+        </div>
 
-        <label for="year_min">Ano mínimo:</label>
-        <input type="number" id="year_min" name="year_min"><br><br>
+        <div class="features">
+            <div class="feature">
+                <h3>Biblioteca Completa</h3>
+                <p>Acesse informações detalhadas sobre centenas de jogos clássicos do PlayStation 2.</p>
+            </div>
+            <div class="feature">
+                <h3>Filtros Avançados</h3>
+                <p>Encontre exatamente o que procura filtrando por gênero, ano de lançamento e muito mais.</p>
+            </div>
+            <div class="feature">
+                <h3>Nostalgia Garantida</h3>
+                <p>Reviva as memórias dos jogos que marcaram uma geração inteira de gamers.</p>
+            </div>
+        </div>
+    </div>
 
-        <label for="year_max">Ano máximo:</label>
-        <input type="number" id="year_max" name="year_max"><br><br>
-
-        <button type="submit">Filtrar</button>
-    </form>
-
-    <h3>Membros:</h3>
-    <p>João Vitor Cavalcante</p>
-    <p>Vinícius Gabriel Dias Batista</p>
-    <p>Vinícius Issao Kuwabara</p>
+    <footer>
+        <p>Biblioteca de Jogos PS2 &copy; 2025 - Pagina inicial</p>
+        <h3>Membros:</h3>
+        <p>João Vitor Cavalcante</p>
+        <p>Vinícius Gabriel Dias Batista</p>
+        <p>Vinícius Issao Kuwabara</p>
+    </footer>
 </body>
-
 </html>
