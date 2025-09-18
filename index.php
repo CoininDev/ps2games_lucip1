@@ -40,10 +40,6 @@
 
     <footer>
         <p>Biblioteca de Jogos PS2 &copy; 2025 - Pagina inicial</p>
-        <h3>Membros:</h3>
-        <p>João Vitor Cavalcante</p>
-        <p>Vinícius Gabriel Dias Batista</p>
-        <p>Vinícius Issao Kuwabara</p>
     </footer>
 </body>
 </html>
