@@ -10,6 +10,7 @@ if ($ps2g === null) {
     die("Erro ao decodificar JSON: " . json_last_error_msg());
 }
 $games = $ps2g->jogos_ps2;
+var_dump($games[0]);
 
 // -1 = sem limite
 $filters = array(

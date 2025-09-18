@@ -6,7 +6,8 @@
       "genero": "Ação-Aventura, Mundo Aberto",
       "faixa_etaria": "18+",
       "desenvolvedora": "Rockstar North",
-      "vendas_aproximadas_milhoes": 27.5
+      "vendas_aproximadas_milhoes": 27.5,
+      "capa": "ps2_grandthefautosanandreas.jpg"
     },
     {
       "titulo": "Gran Turismo 4",
@@ -14,7 +15,8 @@
       "genero": "Corrida, Simulador",
       "faixa_etaria": "Livre",
       "desenvolvedora": "Polyphony Digital",
-      "vendas_aproximadas_milhoes": 11.7
+      "vendas_aproximadas_milhoes": 11.7,
+      "capa": "ps2_granturismo4.jpg"
     },
     {
       "titulo": "Grand Theft Auto: Vice City",
@@ -22,7 +24,8 @@
       "genero": "Ação-Aventura, Mundo Aberto",
       "faixa_etaria": "18+",
       "desenvolvedora": "Rockstar North",
-      "vendas_aproximadas_milhoes": 17.5
+      "vendas_aproximadas_milhoes": 17.5,
+      "capa": "ps2_grandtheftautovicecity.jpg"
     },
     {
       "titulo": "Metal Gear Solid 3: Snake Eater",
@@ -30,7 +33,8 @@
       "genero": "Ação-Aventura, Stealth",
       "faixa_etaria": "16+",
       "desenvolvedora": "Konami",
-      "vendas_aproximadas_milhoes": 6.0
+      "vendas_aproximadas_milhoes": 6.0,
+      "capa": "ps2_metalgearsolid3snakeeater.jpg"
     },
     {
       "titulo": "Final Fantasy X",
@@ -38,7 +42,8 @@
       "genero": "RPG",
       "faixa_etaria": "12+",
       "desenvolvedora": "Square",
-      "vendas_aproximadas_milhoes": 8.5
+      "vendas_aproximadas_milhoes": 8.5,
+      "capa": "ps2_finalfantasyx.jpg"
     },
     {
       "titulo": "God of War",
@@ -46,7 +51,8 @@
       "genero": "Ação, Hack and Slash",
       "faixa_etaria": "18+",
       "desenvolvedora": "SCE Santa Monica Studio",
-      "vendas_aproximadas_milhoes": 4.6
+      "vendas_aproximadas_milhoes": 4.6,
+      "capa": "ps2_godofwar.jpg"
     },
     {
       "titulo": "God of War II",
@@ -62,7 +68,8 @@
       "genero": "Ação-Aventura",
       "faixa_etaria": "12+",
       "desenvolvedora": "Team Ico",
-      "vendas_aproximadas_milhoes": 2.7
+      "vendas_aproximadas_milhoes": 2.7,
+      "capa": "ps2_shadowofthecolossus.jpg"
     },
     {
       "titulo": "Resident Evil 4",
@@ -70,7 +77,8 @@
       "genero": "Survival Horror, Tiro",
       "faixa_etaria": "18+",
       "desenvolvedora": "Capcom",
-      "vendas_aproximadas_milhoes": 6.0
+      "vendas_aproximadas_milhoes": 6.0,
+      "capa": "ps2_residentevil4.jpg"
     },
     {
       "titulo": "Kingdom Hearts II",
@@ -78,7 +86,8 @@
       "genero": "RPG de Ação",
       "faixa_etaria": "12+",
       "desenvolvedora": "Square Enix",
-      "vendas_aproximadas_milhoes": 4.0
+      "vendas_aproximadas_milhoes": 4.0,
+      "capa": "ps2_kingdomheartsii.jpg"
     },
     {
       "titulo": "Tekken 5",
@@ -86,7 +95,8 @@
       "genero": "Luta",
       "faixa_etaria": "12+",
       "desenvolvedora": "Namco",
-      "vendas_aproximadas_milhoes": 6.0
+      "vendas_aproximadas_milhoes": 6.0,
+      "capa": "ps2_tekken5.jpg"
     },
     {
       "titulo": "Pro Evolution Soccer 6",
@@ -118,7 +128,8 @@
       "genero": "Survival Horror, Psicológico",
       "faixa_etaria": "18+",
       "desenvolvedora": "Team Silent",
-      "vendas_aproximadas_milhoes": 3.0
+      "vendas_aproximadas_milhoes": 3.0,
+      "capa": "ps2_silenthill2.jpg"
     },
     {
       "titulo": "Guitar Hero II",
@@ -126,7 +137,8 @@
       "genero": "Música, Ritmo",
       "faixa_etaria": "Livre",
       "desenvolvedora": "Harmonix",
-      "vendas_aproximadas_milhoes": 5.3
+      "vendas_aproximadas_milhoes": 5.3,
+      "capa": "ps2_guitarheroii.jpg"
     },
     {
       "titulo": "Burnout 3: Takedown",
@@ -174,7 +186,8 @@
       "genero": "RPG",
       "faixa_etaria": "12+",
       "desenvolvedora": "Atlus",
-      "vendas_aproximadas_milhoes": 2.2
+      "vendas_aproximadas_milhoes": 2.2,
+      "capa": "ps2_persona4.jpg"
     },
     {
       "titulo": "Dragon Quest VIII: Journey of the Cursed King",
@@ -182,7 +195,8 @@
       "genero": "RPG",
       "faixa_etaria": "12+",
       "desenvolvedora": "Level-5",
-      "vendas_aproximadas_milhoes": 5.4
+      "vendas_aproximadas_milhoes": 5.4,
+      "capa": "ps2_dragonquestviiijourneyofthecursedking.jpg"
     },
     {
       "titulo": "Okami",
@@ -190,7 +204,8 @@
       "genero": "Ação-Aventura",
       "faixa_etaria": "12+",
       "desenvolvedora": "Clover Studio",
-      "vendas_aproximadas_milhoes": 0.6
+      "vendas_aproximadas_milhoes": 0.6,
+      "capa": "ps2_okami.jpg"
     },
     {
       "titulo": "Bully",
@@ -198,7 +213,8 @@
       "genero": "Ação-Aventura, Mundo Aberto",
       "faixa_etaria": "16+",
       "desenvolvedora": "Rockstar Vancouver",
-      "vendas_aproximadas_milhoes": 3.5
+      "vendas_aproximadas_milhoes": 3.5,
+      "capa": "ps2_bully.jpg"
     },
     {
       "titulo": "Prince of Persia: The Sands of Time",
@@ -206,7 +222,8 @@
       "genero": "Ação-Aventura, Plataforma",
       "faixa_etaria": "12+",
       "desenvolvedora": "Ubisoft Montreal",
-      "vendas_aproximadas_milhoes": 4.4
+      "vendas_aproximadas_milhoes": 4.4,
+      "capa": "ps2_princeofpersiathesandsoftime.jpg"
     },
     {
       "titulo": "SSX 3",
@@ -222,7 +239,8 @@
       "genero": "Ação-Aventura, Hack and Slash",
       "faixa_etaria": "16+",
       "desenvolvedora": "Capcom",
-      "vendas_aproximadas_milhoes": 2.0
+      "vendas_aproximadas_milhoes": 2.0,
+      "capa": "ps2_onimusha3.jpg"
     },
     {
       "titulo": "Black",
@@ -230,7 +248,8 @@
       "genero": "Tiro em Primeira Pessoa (FPS)",
       "faixa_etaria": "18+",
       "desenvolvedora": "Criterion Games",
-      "vendas_aproximadas_milhoes": 3.0
+      "vendas_aproximadas_milhoes": 3.0,
+      "capa": "ps2_black.jpg"
     },
     {
       "titulo": "Champions of Norrath",
@@ -238,7 +257,8 @@
       "genero": "RPG de Ação",
       "faixa_etaria": "12+",
       "desenvolvedora": "Snowblind Studios",
-      "vendas_aproximadas_milhoes": 1.5
+      "vendas_aproximadas_milhoes": 1.5,
+      "capa": "ps2_championsofnorrath.jpg"
     }
   ]
 }

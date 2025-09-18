@@ -39,20 +39,24 @@ if (isset($_SESSION['results'])) {
     <table>
         <thead>
             <tr>
+                <th>Capa</th>
                 <th>Título</th>
                 <th>Ano</th>
                 <th>Desenvolvedora</th>
                 <th>Gênero</th>
+                <th>Faixa Etária</th>
                 <th>Estimativa de Vendas</th>
             </tr>
         </thead>
         <tbody>
             <?php foreach ($results as $game): ?>
                 <tr>
+                    <td><img src="<?= htmlspecialchars("PS2_Covers/" . $game->capa) ?>" alt="Capa de <?= htmlspecialchars($game->capa) ?>" style="height:100px;"></td>
                     <td><?= htmlspecialchars($game->titulo) ?></td>
                     <td><?= htmlspecialchars($game->ano) ?></td>
                     <td><?= htmlspecialchars($game->desenvolvedora) ?></td>
                     <td><?= htmlspecialchars($game->genero) ?></td>
+                    <td><?= htmlspecialchars($game->faixa_etaria) ?></td>
                     <td><?= htmlspecialchars($game->vendas_aproximadas_milhoes) ?> mi</td>
                 </tr>
             <?php endforeach; ?>
