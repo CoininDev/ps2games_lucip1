@@ -1,12 +1,6 @@
 <?php
 session_start();
 
-if (!isset($_POST['title'])) {
-    header("Location: index.php");
-    exit();
-}
-
-
 $arq = file_get_contents("./PS2_Games.json");
 if ($arq === false) {
     die("Erro ao ler o arquivo.");
