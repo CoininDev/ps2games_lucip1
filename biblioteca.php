@@ -28,6 +28,7 @@ function limparfiltro() {
 
 <body>
     <div class="container">
+        <a href="index.php" class="back-btn">Voltar para a Página Inicial</a>
         <header>
             <h1>Biblioteca de Jogos PS2</h1>
             <p class="subtitle">

@@ -25,7 +25,7 @@
         <div class="features">
             <div class="feature">
                 <h3>Biblioteca Completa</h3>
-                <p>Acesse informações detalhadas sobre centenas de jogos clássicos do PlayStation 2.</p>
+                <p>Acesse informações detalhadas sobre jogos clássicos do PlayStation 2.</p>
             </div>
             <div class="feature">
                 <h3>Filtros Avançados</h3>
